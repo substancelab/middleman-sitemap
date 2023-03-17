@@ -3,7 +3,7 @@ Feature: Default template
   Scenario: Sitemap should have loc element
     Given a successfully built app at "template-app"
     When I cd to "build"
-    Then the file "sitemap.xml" should contain "<loc>http://www.example.com</loc>"
+    Then the file "sitemap.xml" should contain "<loc>http://www.example.com/</loc>"
 
   Scenario: Sitemap should not have lastmod element
     Given a successfully built app at "template-app"
