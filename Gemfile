@@ -15,6 +15,7 @@ group :test do
   gem 'capybara', '~> 2.5.0'
   gem 'cucumber', '~> 2.0'
   gem 'fivemat'
+  gem 'middleman-cli'
   gem 'aruba', '~> 0.7.4'
   gem 'rspec'
 end
