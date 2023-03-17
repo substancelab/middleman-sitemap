@@ -12,9 +12,10 @@ group :development do
 end
 
 group :test do
-  gem 'capybara'
-  gem 'cucumber', '< 4.0.0'
+  gem 'capybara', '~> 2.5.0'
+  gem 'cucumber', '~> 2.0'
   gem 'fivemat'
-  gem 'aruba', '< 2.0'
+  gem 'middleman-cli'
+  gem 'aruba', '~> 0.7.4'
   gem 'rspec'
 end
