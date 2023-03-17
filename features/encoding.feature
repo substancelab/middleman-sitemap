@@ -9,3 +9,8 @@ Feature: Encode HTML entities
     Given a successfully built app at "subdirectories-app"
     When I cd to "build"
     Then the file "sitemap.xml" should contain "<loc>http://www.example.com/error-pages/404.html</loc>"
+
+  Scenario: Subdirectories
+    Given a successfully built app at "subdirectories-app"
+    When I cd to "build"
+    Then the file "sitemap.xml" should contain "<loc>http://www.example.com/error-pages/</loc>"
